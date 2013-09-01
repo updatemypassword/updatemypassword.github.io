@@ -1,7 +1,22 @@
 [
     {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/settings?tab=account&section=password&view",
+        "info": ""
+    },
+    {
         "name": "Github",
         "url": "https://github.com/settings/admin",
+        "info": ""
+    },
+    {
+        "name": "Hotmail",
+        "url": "https://account.live.com/Password/Change",
+        "info": ""
+    },
+    {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/uas/change-password?goback=%2Enas_*1_*1_*1",
         "info": ""
     },
     {
