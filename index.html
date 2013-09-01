@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>Change my password</title>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body ng-controller="SiteListCtrl">
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Update my password</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" placeholder="Search" class="form-control" ng-model="query">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="hide">Update my password</h1>
+        <p>A directory of direct links to update your account's passwords.</p>
+    </div>
+</div>
+
+<div class="container">
+    <ul class="row list-unstyled">
+        <li class="col-md-3 box" ng-repeat="site in sites | filter:query | orderBy:name">
+            <h4>{{site.name}}</h4>
+            <p><a class="btn btn-default btn-xs" href="{{site.url}}">Change password &raquo;</a></p>
+        </li>
+    </ul>
+
+    <hr>
+
+    <footer>
+        <p>&copy; Dries De Peuter 2013</p>
+        <iframe width="85px" scrolling="0" height="20px" frameborder="0" allowtransparency="true" src="http://ghbtns.com/github-btn.html?user=updatemypassword&repo=updatemypassword.github.io&type=watch&count=true"></iframe>
+    </footer>
+</div>
+
+
+</body>
+</html>
