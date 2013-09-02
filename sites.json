@@ -1,5 +1,25 @@
 [
     {
+        "name": "9GAG",
+        "url": "https://9gag.com/settings/password",
+        "info": ""
+    },
+    {
+        "name": "Delicious",
+        "url": "https://delicious.com/settings/account",
+        "info": ""
+    },
+    {
+        "name": "Dropbox",
+        "url": "https://www.dropbox.com/account#security",
+        "info": "You have to click the Change Password link."
+    },
+    {
+        "name": "Evernote",
+        "url": "https://www.evernote.com/SecuritySettings.action",
+        "info": "You have to click the Change Password link."
+    },
+    {
         "name": "Facebook",
         "url": "https://www.facebook.com/settings?tab=account&section=password&view",
         "info": ""
@@ -10,6 +30,11 @@
         "info": ""
     },
     {
+        "name": "Google",
+        "url": "https://accounts.google.com/b/0/EditPasswd",
+        "info": ""
+    },
+    {
         "name": "Hotmail",
         "url": "https://account.live.com/Password/Change",
         "info": ""
@@ -17,6 +42,11 @@
     {
         "name": "LinkedIn",
         "url": "https://www.linkedin.com/uas/change-password?goback=%2Enas_*1_*1_*1",
+        "info": ""
+    },
+    {
+        "name": "Trakt",
+        "url": "http://trakt.tv/settings/password",
         "info": ""
     },
     {
