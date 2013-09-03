@@ -3,3 +3,7 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
+.social-buttons .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
