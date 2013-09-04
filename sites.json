@@ -5,6 +5,11 @@
         "info": ""
     },
     {
+        "name": "Bitbucket",
+        "url": "https://bitbucket.org/account/password/change/username/",
+        "info": "Switch username with your username"
+    },
+    {
         "name": "Delicious",
         "url": "https://delicious.com/settings/account",
         "info": ""
@@ -27,6 +32,11 @@
     {
         "name": "Github",
         "url": "https://github.com/settings/admin",
+        "info": ""
+    },
+    {
+        "name": "Goodreads",
+        "url": "https://www.goodreads.com/user/change_password",
         "info": ""
     },
     {
