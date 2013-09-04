@@ -80,6 +80,11 @@
         "info": ""
     },
     {
+        "name": "Pinterest",
+        "url": "https://pinterest.com/settings",
+        "info": "Click the change your password link."
+    },
+    {
         "name": "SoundCloud",
         "url": "http://soundcloud.com/settings/account",
         "info": "Click Send a reset link."
