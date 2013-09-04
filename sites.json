@@ -50,6 +50,11 @@
         "info": ""
     },
     {
+        "name": "Packagist",
+        "url": "https://packagist.org/change-password",
+        "info": ""
+    },
+    {
         "name": "Trakt",
         "url": "http://trakt.tv/settings/password",
         "info": ""
@@ -57,11 +62,6 @@
     {
         "name": "Twitter",
         "url": "https://twitter.com/settings/password",
-        "info": ""
-    },
-    {
-        "name": "Packagist",
-        "url": "https://packagist.org/change-password",
         "info": ""
     }
 ]
