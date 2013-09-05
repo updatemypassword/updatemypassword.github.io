@@ -1,5 +1,10 @@
 [
     {
+        "name": "1DayFly",
+        "url": "https://www.1dayfly.com/be/nl/member",
+        "info": ""
+    },
+    {
         "name": "9GAG",
         "url": "https://9gag.com/settings/password",
         "info": ""
@@ -25,6 +30,11 @@
         "info": ""
     },
     {
+        "name": "Garmin",
+        "url": "https://my.garmin.com/mygarmin/customers/updateAccountInformation.faces",
+        "info": ""
+    },
+    {
         "name": "Github",
         "url": "https://github.com/settings/admin",
         "info": ""
@@ -45,6 +55,16 @@
         "info": ""
     },
     {
+        "name": "iBOOD",
+        "url": "https://www.ibood.com/be/nl/account_change_password",
+        "info": ""
+    },
+    {
+        "name": "Instagram",
+        "url": "https://instagram.com/accounts/password/change",
+        "info": ""
+    },
+    {
         "name": "LinkedIn",
         "url": "https://www.linkedin.com/uas/change-password",
         "info": ""
@@ -55,6 +75,21 @@
         "info": ""
     },
     {
+        "name": "Pinboard",
+        "url": "https://pinboard.in/settings/password",
+        "info": ""
+    },
+    {
+        "name": "Pinterest",
+        "url": "https://pinterest.com/settings",
+        "info": "Click the change your password link."
+    },
+    {
+        "name": "SoundCloud",
+        "url": "http://soundcloud.com/settings/account",
+        "info": "Click Send a reset link."
+    },
+    {
         "name": "Trakt",
         "url": "http://trakt.tv/settings/password",
         "info": ""
@@ -62,6 +97,11 @@
     {
         "name": "Twitter",
         "url": "https://twitter.com/settings/password",
+        "info": ""
+    },
+    {
+        "name": "Yelp",
+        "url": "https://www.yelp.com/profile_password",
         "info": ""
     }
 ]
