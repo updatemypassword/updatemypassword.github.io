@@ -1,0 +1,6 @@
+<ul class="row list-unstyled">
+    <li class="col-md-3 col-sm-4 col-xs-6" ng-repeat="site in sites | filter:query | orderBy:name">
+        <h4>{{site.name}}</h4>
+        <p><a class="btn btn-default btn-xs" href="{{site.url}}">Change password &raquo;</a></p>
+    </li>
+</ul>

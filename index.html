@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="ump">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
     <script src="script.js"></script>
 </head>
 
-<body ng-controller="SiteListCtrl">
+<body>
 
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
@@ -40,13 +40,8 @@
     </div>
 </div>
 
-<div class="container">
-    <ul class="row list-unstyled">
-        <li class="col-md-3 col-sm-4 col-xs-6" ng-repeat="site in sites | filter:query | orderBy:name">
-            <h4>{{site.name}}</h4>
-            <p><a class="btn btn-default btn-xs" href="{{site.url}}">Change password &raquo;</a></p>
-        </li>
-    </ul>
+<div class="container" ng-view>
+
 </div>
 
 
@@ -71,20 +66,21 @@
     <footer class="row">
         <div class="col-md-6 col-xs-12"><p>&copy; Dries De Peuter 2013</p></div>
         <div class="col-md-6 col-xs-12">
-            <div class="row social-buttons">
-                <div class="col-md-3 col-xs-6">
-                    <iframe width="85px" scrolling="0" height="20px" frameborder="0" allowtransparency="true" src="http://ghbtns.com/github-btn.html?user=updatemypassword&repo=updatemypassword.github.io&type=watch&count=true"></iframe>
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <iframe width="95px" scrolling="0" height="20px" frameborder="0" allowtransparency="true" src="http://ghbtns.com/github-btn.html?user=updatemypassword&repo=updatemypassword.github.io&type=fork&count=true"></iframe>
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <iframe width="85px" scrolling="0" height="20px" frameborder="0" allowtransparency="true"  src="http://www.facebook.com/plugins/like.php?api_key=363872316967438&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D26%23cb%3Df2c74beb8dd3d6c%26domain%3Dump.dev%26origin%3Dhttp%253A%252F%252Fump.dev%252Ff3c624a0cf9cb86%26relation%3Dparent.parent&colorscheme=light&extended_social_context=false&href=http%3A%2F%2Fump.dev%2F&layout=button_count&locale=nl_NL&node_type=link&sdk=joey&send=false&show_faces=false&width=450&locale=en_GB" frameborder="0"></iframe>
-                </div>
+            <!--<div class="row social-buttons">-->
+                <!--<div class="col-md-3 col-xs-6">-->
+                    <!--<iframe width="85px" scrolling="0" height="20px" frameborder="0" allowtransparency="true" src="http://ghbtns.com/github-btn.html?user=updatemypassword&repo=updatemypassword.github.io&type=watch&count=true"></iframe>-->
+                <!--</div>-->
+                <!--<div class="col-md-3 col-xs-6">-->
+                    <!--<iframe width="95px" scrolling="0" height="20px" frameborder="0" allowtransparency="true" src="http://ghbtns.com/github-btn.html?user=updatemypassword&repo=updatemypassword.github.io&type=fork&count=true"></iframe>-->
+                <!--</div>-->
+                <!--<div class="col-md-3 col-xs-6">-->
+                    <!--<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>-->
+                    <!--<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>-->
+                <!--</div>-->
+                <!--<div class="col-md-3 col-xs-6">-->
+                    <!--<iframe width="85px" scrolling="0" height="20px" frameborder="0" allowtransparency="true"  src="http://www.facebook.com/plugins/like.php?api_key=363872316967438&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D26%23cb%3Df2c74beb8dd3d6c%26domain%3Dump.dev%26origin%3Dhttp%253A%252F%252Fump.dev%252Ff3c624a0cf9cb86%26relation%3Dparent.parent&colorscheme=light&extended_social_context=false&href=http%3A%2F%2Fump.dev%2F&layout=button_count&locale=nl_NL&node_type=link&sdk=joey&send=false&show_faces=false&width=450&locale=en_GB" frameborder="0"></iframe>-->
+                <!--</div>-->
+            <!--</div>-->
         </div>
     </footer>
 </div>
