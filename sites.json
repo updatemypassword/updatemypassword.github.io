@@ -95,6 +95,11 @@
         "info": "Click Send a reset link."
     },
     {
+        "name": "reddit",
+        "url": "http://www.reddit.com/password",
+        "info": ""
+    },
+    {
         "name": "Trakt",
         "url": "http://trakt.tv/settings/password",
         "info": ""
