@@ -90,14 +90,14 @@
         "info": "Click the change your password link."
     },
     {
-        "name": "SoundCloud",
-        "url": "http://soundcloud.com/settings/account",
-        "info": "Click Send a reset link."
-    },
-    {
         "name": "reddit",
         "url": "http://www.reddit.com/password",
         "info": ""
+    },
+    {
+        "name": "SoundCloud",
+        "url": "http://soundcloud.com/settings/account",
+        "info": "Click Send a reset link."
     },
     {
         "name": "Trakt",
