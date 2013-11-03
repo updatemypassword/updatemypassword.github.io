@@ -100,6 +100,11 @@
         "info": "Click Send a reset link."
     },
     {
+        "name": "Strava",
+        "url": "https://www.strava.com/settings/password",
+        "info": ""
+    },
+    {
         "name": "Trakt",
         "url": "http://trakt.tv/settings/password",
         "info": ""
