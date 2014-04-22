@@ -80,6 +80,11 @@
         "info": ""
     },
     {
+        "name": "PayPal",
+        "url": "https://www.paypal.com/be/cgi-bin/webscr?cmd=_profile-password-start",
+        "info": ""
+    },
+    {
         "name": "Pinboard",
         "url": "https://pinboard.in/settings/password",
         "info": ""
